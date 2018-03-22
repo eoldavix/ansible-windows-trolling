@@ -1,0 +1,9 @@
+---
+# tasks file for tetroleo
+- name: Copia
+  win_copy:
+    src: tetroleo.ps1
+    dest: C:\tetroleo.ps1
+
+- name: Set Wallpaper
+  win_shell: C:\tetroleo.ps1
