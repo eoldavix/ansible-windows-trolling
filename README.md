@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+tetroleo: An ansible role for changing wallpaper in your company. Use it at your own risk. If you are fired because executed this, sorry, bro.
 
 Requirements
 ------------
@@ -22,6 +22,7 @@ Example Playbook
 ----------------
 
 ```
+---
 - name: Change Wallpaper
   hosts: all
   roles:
