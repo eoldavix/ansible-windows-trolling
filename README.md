@@ -21,10 +21,12 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 Example Playbook
 ----------------
 
+```
 - name: Change Wallpaper
   hosts: all
   roles:
   - tetroleo
+```
 
 
 License
